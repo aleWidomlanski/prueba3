@@ -8,7 +8,7 @@
  }
 
  .main {
-     width: 85%;
+    width: 85%;
  }
 
  /* HEADER */
@@ -33,18 +33,24 @@
 
  .main-nav__logo {
      margin-left: 10px;
-     width: 200px;
+     width: 140px;
  }
 
  .main-navListNavegation__icon {
      color: #606060;
-     font-size: 30px;
+     font-size: 20px;
  }
 
 
  .main-navContainerListNavegation {
      display: none;
 
+ }
+
+ .main-navContainerIcons {
+     border: solid 1px red;
+     display: flex;
+     flex: 0 1 30%
  }
 
  .main-navIcons__heart {
@@ -54,16 +60,19 @@
  .main-navIcons__search {
      color: #606060;
      margin: 0px 10px;
- }
+     font-size: 12px;
+}
 
  .main-navIcons__cart {
      color: #606060;
      margin: 0px 10px;
+     font-size: 12px;
  }
 
  .main-navIcons__user {
      color: #606060;
      margin: 0px 0px 0px 10px;
+     font-size: 12px;
  }
 
  .main-navIcons__search:hover {
